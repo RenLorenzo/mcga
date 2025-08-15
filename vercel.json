@@ -1,0 +1,8 @@
+{
+	"rewrites": [
+		{ "source": "/", "destination": "/index.html" },
+		{ "source": "/syllabus", "destination": "/syllabus.html" },
+		{ "source": "/calc", "destination": "/testplaformlanding.html" }
+	],
+	"cleanUrls": true
+} 

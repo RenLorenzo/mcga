@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Physics Test — Calc Session</title>
+  <link rel="stylesheet" href="test-styles.css" />
+</head>
+<body>
+  <div class="test-container">
+    <!-- Header -->
+    <header class="test-header">
+      <div class="header-left">
+        <a href="index.html" class="back-btn">← Back</a>
+        <h1>Physics Test</h1>
+      </div>
+      <div class="header-right">
+        <div class="timer">
+          <span class="timer-icon">⏱</span>
+          <span id="timeDisplay">00:00</span>
+        </div>
+        <div class="progress">
+          <span id="currentQuestion">1</span>/15
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="test-main">
+      <!-- Sidebar -->
+      <aside class="test-sidebar">
+        <div class="sidebar-header">
+          <h3>Question Navigator</h3>
+          <div class="sidebar-stats">
+            <span id="attemptedCount">0</span> attempted
+          </div>
+        </div>
+        
+        <div class="question-grid" id="questionGrid">
+          <!-- Questions will be populated here -->
+        </div>
+        
+        <div class="sidebar-actions">
+          <button id="markReviewBtn" class="action-btn review-btn">
+            <span class="btn-icon">🔖</span>
+            Mark for Review
+          </button>
+          <button id="clearResponseBtn" class="action-btn clear-btn">
+            <span class="btn-icon">🗑</span>
+            Clear Response
+          </button>
+        </div>
+      </aside>
+
+      <!-- Question Area -->
+      <main class="question-area">
+        <div class="question-container">
+          <div class="question-header">
+            <h2 id="questionNumber">Question 1</h2>
+            <div class="question-actions">
+              <button id="markReviewBtn2" class="mark-btn">
+                <span class="btn-icon">🔖</span>
+                Mark for Review
+              </button>
+            </div>
+          </div>
+          
+          <div class="question-content">
+            <div id="questionStory" class="question-story">
+              <!-- Question content will be loaded here -->
+            </div>
+            
+            <div id="questionFormula" class="question-formula">
+              <!-- Formula hint will be loaded here -->
+            </div>
+          </div>
+          
+          <div class="answer-section">
+            <div class="answer-input">
+              <label for="answerInput">Your Answer:</label>
+              <textarea 
+                id="answerInput" 
+                placeholder="Enter your solution here..."
+                rows="6"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Navigation -->
+        <div class="question-navigation">
+          <button id="prevBtn" class="nav-btn prev-btn" disabled>
+            <span class="btn-icon">←</span>
+            Previous
+          </button>
+          
+          <div class="nav-center">
+            <button id="skipBtn" class="nav-btn skip-btn">
+              Skip
+            </button>
+          </div>
+          
+          <button id="nextBtn" class="nav-btn next-btn">
+            Next
+            <span class="btn-icon">→</span>
+          </button>
+        </div>
+      </main>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+      <div class="loading-content">
+        <div class="loading-spinner"></div>
+        <h3>Preparing Your Test</h3>
+        <p>Generating 15 unique physics challenges...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="test.js"></script>
+</body>
+</html> 

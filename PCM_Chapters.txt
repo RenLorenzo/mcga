@@ -1,0 +1,98 @@
+Mathematics in Physics
+Units and Dimensions
+Motion In One Dimension
+Motion In Two Dimensions
+Laws of Motion
+Work Power Energy
+Center of Mass Momentum and Collision
+Rotational Motion
+Gravitation
+Mechanical Properties of Solids
+Mechanical Properties of Fluids
+Thermal Properties of Matter
+Thermodynamics
+Kinetic Theory of Gases
+Oscillations
+Waves and Sound
+Electrostatics
+Capacitance
+Current Electricity
+Magnetic Properties of Matter
+Magnetic Effects of Current
+Electromagnetic Induction
+Alternating Current
+Electromagnetic Waves
+Ray Optics
+Wave Optics
+Dual Nature of Matter
+Atomic Physics
+Nuclear Physics
+Semiconductors
+Experimental Physics
+physics
+
+
+
+
+
+
+chem starts
+Some Basic Concepts of Chemistry
+Structure of Atom
+Classification of Elements and Periodicity in Properties
+Chemical Bonding and Molecular Structure
+Thermodynamics (C)
+Chemical Equilibrium
+Ionic Equilibrium
+Redox Reactions
+p Block Elements (Group 13 & 14)
+General Organic Chemistry
+Hydrocarbons
+Solutions
+Electrochemistry
+Chemical Kinetics
+p Block Elements (Group 15, 16, 17 & 18)
+d and f Block Elements
+Coordination Compounds
+Haloalkanes and Haloarenes
+Alcohols Phenols and Ethers
+Aldehydes and Ketones
+Carboxylic Acid Derivatives
+Amines
+Biomolecules
+Practical Chemistry
+chemistry
+
+
+
+
+maths starts
+Basic of Mathematics
+Quadratic Equation
+Complex Number
+Permutation Combination
+Sequences and Series
+Binomial Theorem
+Trigonometric Ratios & Identities
+Straight Lines
+Circle
+Parabola
+Ellipse
+Hyperbola
+Limits
+Statistics
+Sets and Relations
+Matrices
+Determinants
+Inverse Trigonometric Functions
+Functions
+Continuity and Differentiability
+Differentiation
+Application of Derivatives
+Indefinite Integration
+Definite Integration
+Area Under Curves
+Differential Equations
+Vector Algebra
+Three Dimensional Geometry
+Probability

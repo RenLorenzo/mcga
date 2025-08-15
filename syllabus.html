@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>MJGA — Syllabus Tracker</title>
+	<link rel="stylesheet" href="syllabus.css" />
+</head>
+<body>
+	<div class="tracker-app">
+		<header class="app-header">
+			<a class="back" href="index.html">← MJGA</a>
+			<h1>PCM Syllabus Tracker</h1>
+		</header>
+
+		<section class="progress-summary simple">
+			<div class="summary-card" data-subject="physics">
+				<div class="donut" data-value="0"><svg viewBox="0 0 36 36"><path class="bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/><path class="meter" stroke-dasharray="0,100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/></svg><span class="donut-text">0%</span></div>
+				<h3>Physics</h3>
+			</div>
+			<div class="summary-card" data-subject="chemistry">
+				<div class="donut" data-value="0"><svg viewBox="0 0 36 36"><path class="bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/><path class="meter" stroke-dasharray="0,100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/></svg><span class="donut-text">0%</span></div>
+				<h3>Chemistry</h3>
+			</div>
+			<div class="summary-card" data-subject="mathematics">
+				<div class="donut" data-value="0"><svg viewBox="0 0 36 36"><path class="bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/><path class="meter" stroke-dasharray="0,100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/></svg><span class="donut-text">0%</span></div>
+				<h3>Mathematics</h3>
+			</div>
+		</section>
+
+		<section class="stats-panel">
+			<div class="stat">
+				<div class="label">Total</div>
+				<div class="value" id="statTotal">0</div>
+			</div>
+			<div class="stat">
+				<div class="label">Done</div>
+				<div class="value" id="statDone">0</div>
+			</div>
+			<div class="stat">
+				<div class="label">Remaining</div>
+				<div class="value" id="statRemaining">0</div>
+			</div>
+			<div class="stat">
+				<div class="label">Weighted</div>
+				<div class="value" id="statWeighted">0%</div>
+			</div>
+			<div class="stat">
+				<div class="label">Daily Goal</div>
+				<div class="value"><input id="dailyGoal" type="number" min="1" value="3" /></div>
+			</div>
+			<div class="stat">
+				<div class="label">ETA</div>
+				<div class="value" id="statETA">—</div>
+			</div>
+			<div class="stat">
+				<div class="label">Streak</div>
+				<div class="value" id="statStreak">0🔥</div>
+			</div>
+		</section>
+
+		<section class="controls simple">
+			<div class="control">
+				<label for="subjectSelect">Subject</label>
+				<select id="subjectSelect">
+					<option value="physics">Physics</option>
+					<option value="chemistry">Chemistry</option>
+					<option value="mathematics">Mathematics</option>
+				</select>
+			</div>
+			<div class="control">
+				<label for="searchInput">Search Chapters</label>
+				<input id="searchInput" type="text" placeholder="Search..." />
+			</div>
+			<div class="control">
+				<label>Filter</label>
+				<div class="btn-group">
+					<button data-filter="all" class="chip active">All</button>
+					<button data-filter="remaining" class="chip">Remaining</button>
+					<button data-filter="done" class="chip">Done</button>
+				</div>
+			</div>
+			<div class="control">
+				<label>Data</label>
+				<div class="btn-group">
+					<button id="exportBtn" class="chip">Export</button>
+					<button id="importBtn" class="chip">Import</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="heatmap">
+			<h3>Momentum</h3>
+			<div id="heatmap" class="heatmap-grid"></div>
+		</section>
+
+		<section class="chapter-list">
+			<ul id="chapters"></ul>
+		</section>
+
+		<div class="watermark">by ren lorenzo</div>
+	</div>
+
+	<script src="syllabus.js"></script>
+</body>
+</html> 
