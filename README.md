@@ -1,4 +1,4 @@
-# MJGA — Make JEE Great Again
+# MJGA — Make JEE Great Again (claude-code experiment (1prompt challenge)
 
 Static site ready for Vercel.
 
@@ -21,5 +21,6 @@ You can serve locally with any static server, e.g.:
 ```bash
 npx serve .
 ```
+
 
 Or VSCode Live Server extension. 
